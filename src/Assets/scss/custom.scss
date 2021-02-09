@@ -1,0 +1,23 @@
+// Override default variables before the import
+$body-bg: #fff;
+$text-color: #000000;
+$link-hover-color: #68a4c4;
+$main-color: #26a4ba;
+
+// Import Bootstrap and its default variables
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: $text-color;
+
+  &:focus, &:hover, &:active {
+    color: $link-hover-color;
+    text-decoration: none;
+  }
+}

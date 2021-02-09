@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  min-height: calc(100vh - 90px - 270px);
+}
+
+.flex-1 {
+  flex: 1 0 auto;
+}
